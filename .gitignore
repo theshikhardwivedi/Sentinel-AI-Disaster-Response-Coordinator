@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Virtual environment
+/venv
+/env
+.venv
+
+# Distribution / packaging
+/dist
+/build
+/*.egg-info/
+
+# Logs and databases
+*.log
+*.sqlite
+/data/
+
+# Environment variables and secrets
+.env
+.DS_Store
+
+# FAISS Index (Often large and generated from data)
+*.faiss
+faiss_index/
